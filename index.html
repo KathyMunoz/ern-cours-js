@@ -7,19 +7,17 @@
     <title>ern-cours-js</title>
   </head>
   <body>
-    <p>Créer le compte</p>
-    <div>
+    <h2>Créer le compte</h2>
         <input type="text" id="nom" placeholder="saisir le nom">
         <button id="bt_create">Créer </button>
-    </div>
-
-    <div>
+    
+    <h2>Opérations sur un compte</h2>
+    
       <input type="text" id="compte" placeholder="saisir le compte">
       <input type="text" id="montant" placeholder="saisir le montant">
-    </div>
       <button id="crediter">Créditer</button>
       <button id="retirer">Retirer</button>
-    <p>Virement</p>
+    <h3>Virement</h3>
     
     <!-- partie ( credit et debit) : -->
     <div>
@@ -28,6 +26,7 @@
       <input type="text" id="montant_virement" placeholder="montant">
     </div>
     <button id="virement">Virement</button>
+    <h3>Messages</h3>
     <p id="message"></p>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
