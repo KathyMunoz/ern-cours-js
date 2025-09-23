@@ -4,9 +4,31 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>ern-cours-js</title>
   </head>
   <body>
+    <p>Créer le compte</p>
+    <div>
+        <input type="text" id="nom" placeholder="saisir le nom">
+        <button id="bt_create">Créer </button>
+    </div>
+
+    <div>
+      <input type="text" id="compte" placeholder="saisir le compte">
+      <input type="text" id="montant" placeholder="saisir le montant">
+    </div>
+      <button id="crediter">Créditer</button>
+      <button id="retirer">Retirer</button>
+    <p>Virement</p>
+    
+    <!-- partie ( credit et debit) : -->
+    <div>
+      <input type="text" id="source" placeholder="compta source">
+      <input type="text" id="cible" placeholder="compte cible">
+      <input type="text" id="montant_virement" placeholder="montant">
+    </div>
+    <button id="virement">Virement</button>
+    <p id="message"></p>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
   </body>
