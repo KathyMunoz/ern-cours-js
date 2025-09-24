@@ -1,34 +1,53 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ern-cours-js</title>
+    <title>Exercice ex_07</title>
   </head>
   <body>
-    <h2>Créer le compte</h2>
-        <input type="text" id="nom" placeholder="saisir le nom">
-        <button id="bt_create">Créer </button>
-    
-    <h2>Opérations sur un compte</h2>
-    
-      <input type="text" id="compte" placeholder="saisir le compte">
-      <input type="text" id="montant" placeholder="saisir le montant">
-      <button id="crediter">Créditer</button>
-      <button id="retirer">Retirer</button>
-    <h3>Virement</h3>
-    
-    <!-- partie ( credit et debit) : -->
-    <div>
-      <input type="text" id="source" placeholder="compta source">
-      <input type="text" id="cible" placeholder="compte cible">
-      <input type="text" id="montant_virement" placeholder="montant">
-    </div>
-    <button id="virement">Virement</button>
-    <h3>Messages</h3>
-    <p id="message"></p>
-    <div id="app"></div>
+    <main>
+      <h1>Exercice JS : ex_07 Classe et DOM</h1>
+      <section>
+        <h2>Ajouter un compte</h2>
+        <input type="text" id="id_nom" placeholder="Saisir le nom du compte" />
+        <button id="id_create">Ajouter</button>
+      </section>
+      <section>
+        <h2>Opération du compte</h2>
+        <input
+          type="text"
+          id="id_compte"
+          placeholder="Saisir le nom du compte"
+        />
+        <input type="text" id="id_montant" placeholder="Saisir le montant" />
+        <button id="id_crediter">Crediter</button>
+        <button id="id_retirer">Retirer</button>
+      </section>
+      <section>
+        <h2>Virement entre compte</h2>
+        <input
+          type="text"
+          id="id_source"
+          placeholder="Saisir le compte source"
+        />
+        <input type="text" id="id_cible" placeholder="Saisir le compte cible" />
+        <input
+          type="text"
+          id="id_montant_virement"
+          placeholder="Saisir le montant"
+        />
+        <button id="id_virement">Virer le montant</button>
+      </section>
+      <section>
+        <h2>Solde de tous les comptes</h2>
+        <button id="id_solde">Afficher</button>
+      </section>
+      <article>
+        <p id="id_message"></p>
+      </article>
+    </main>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
