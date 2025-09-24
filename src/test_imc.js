@@ -16,7 +16,7 @@ for (let i = 0; i < list.length; i++) {
 }
 
 //for of
-for (const userImc of list) {// on invente userImc??
+for (const userImc of list) {
   userImc.display();
 }
 
