@@ -4,7 +4,7 @@ export default class Vehicule  {
         this.nbrRoue = nbrRoue;
         this.vitesse = vitesse;
     }
-     detect() {
+    detect() {
         if (this.nbrRoue == 4) {
         return "voiture";
         }
@@ -16,7 +16,7 @@ export default class Vehicule  {
     boost () {
         this.vitesse += 50;
     }
-    plusRapide (vehicule) {//pour quoi v minuscule?
+    plusRapide (vehicule) {
         if (this.vitesse > vehicule.vitesse) {//vehicule.vitesse, vitesse est la propieté de vehicule ??
             return `Le vehicule : ${this.nomVehicule} est le plus rapide`;
         }
