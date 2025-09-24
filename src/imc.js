@@ -11,6 +11,6 @@ export default class IMC {
     //Avec .toFixed(2) : "22.86"
   }
   display () {
-    console.log(`La personne : ${this.nom}, poids : ${this.poids}, taille : ${this.taille}, IMC : ${calculImc()}`);
+    console.log(`La personne : ${this.nom}, poids : ${this.poids}, taille : ${this.taille}, IMC : ${calculImc()} `);
   }
 }

@@ -1,2 +1,3 @@
-import './style.css'
+import './style.css';
 
+import './test_imc.js';
