@@ -1,1 +1,4 @@
-coucou
+
+// http ? protocole que le machines utilisent pour comuniquer avec un serveur 
+// pour comuniquer on a besoin de URL et une METHODE
+// REPONSE/ CODE STATUS/EX:200 et format JSON 
